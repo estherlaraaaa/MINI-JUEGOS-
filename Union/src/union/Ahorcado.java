@@ -55,7 +55,7 @@ public class Ahorcado extends JFrame implements ActionListener{
         
         //Panel donde estaran los elementos
         panelComponentes = new JPanel();
-        panelComponentes.setBackground(Color.BLUE);
+        panelComponentes.setBackground(Color.LIGHT_GRAY);
         panelComponentes.setLayout(null);
         
         botonReIniciar = new JButton("Reinicar Juego");
@@ -64,7 +64,6 @@ public class Ahorcado extends JFrame implements ActionListener{
         botonSalir = new JButton("SALIR");
         
         etiqueta = new JLabel("Palabra");
-        
         palabra = new JTextField("");
         letra = new JTextField("");
         
